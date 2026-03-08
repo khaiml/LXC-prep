@@ -1,5 +1,6 @@
+-------------------------------------------------------------
 🐳 Docker & Portainer Installer for Proxmox LXC (Ubuntu 24.04)
-
+-------------------------------------------------------------
 A lightweight bash script to automate the installation of Docker CE, Docker Compose, and Portainer Community Edition on an Ubuntu 24.04 (Noble Numbat) LXC container.
 
 🚀 Features:
@@ -30,38 +31,29 @@ Option 1: The Quick Way (One-Liner)
 
 If you have curl installed, you can run this directly:
 
-Bash
-
     curl -sSL https://raw.githubusercontent.com/khaiml/LXC-prep/main/setup.sh | bash
 
 Option 2: Manual Installation
 
 Clone the repository:
 
- Bash
-   
     git clone https://github.com/khaiml/LXC-prep.git
     cd LXC-prep
 
 Make the script executable:
-Bash
 
     chmod +x setup.sh
 
 Run as root:
-    Bash
 
     ./install.sh
 
 🖥️ Usage
 
 Once the script completes, it will output your Portainer access link:
-Plaintext
 
--------------------------------------------------------
-Installation Complete!
-Access Portainer at: https://Your-IP:9443
--------------------------------------------------------
+    Installation Complete!
+    Access Portainer at: https://Your-IP:9443
 
 Open your browser and go to the link provided.
 Accept the self-signed SSL certificate warning (normal for local Portainer installs).
@@ -71,7 +63,6 @@ Create your admin password and start managing your containers!
 Storage Driver Issues
 
 If Docker fails to start with an error regarding overlay2, you may need the FUSE driver. Run this inside the LXC:
-Bash
 
     apt update && apt install -y fuse-overlayfs
 
