@@ -4,8 +4,11 @@ A lightweight bash script to automate the installation of Docker CE, Docker Comp
 🚀 Features
 
 Official Repo: Installs Docker from the official Docker repository (not the older docker.io version).
+
 Docker Compose V2: Includes the latest CLI plugin support.
+
 Portainer GUI: Automatically deploys Portainer with a persistent data volume.
+
 IP Auto-Detection: Displays the exact URL to access your dashboard at the end of the script.
 
 ⚠️ Important: Proxmox LXC Requirements
