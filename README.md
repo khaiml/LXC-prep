@@ -23,15 +23,16 @@ Before running this script, your LXC container must have the following features 
     [x] Keyctl
     [x] Nesting
 
-Click OK and restart the container.
+    Click OK and restart the container.
 
 🛠️ Installation
 Option 1: The Quick Way (One-Liner)
 
 If you have curl installed, you can run this directly:
+
 Bash
 
-curl -sSL https://raw.githubusercontent.com/khaiml/LXC-prep/main/setup.sh | bash
+    curl -sSL https://raw.githubusercontent.com/khaiml/LXC-prep/main/setup.sh | bash
 
 Option 2: Manual Installation
 
