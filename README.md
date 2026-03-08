@@ -16,14 +16,12 @@ IP Auto-Detection: Displays the exact URL to access your dashboard at the end of
 
 Before running this script, your LXC container must have the following features enabled in Proxmox, otherwise Docker will fail to start:
 
-Select your LXC in Proxmox.
+    Select your LXC in Proxmox.
+    Go to Options -> Features.
+    heck the boxes for:
 
-Go to Options -> Features.
-
-heck the boxes for:
-
-[x] Keyctl
-[x] Nesting
+    [x] Keyctl
+    [x] Nesting
 
 Click OK and restart the container.
 
