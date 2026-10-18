@@ -1,5 +1,5 @@
 -------------------------------------------------------------
-🐳 Docker & Portainer Installer for Proxmox LXC (Ubuntu 24.04)
+🐳 Docker Installer for Proxmox LXC (Ubuntu 24.04)
 -------------------------------------------------------------
 A lightweight bash script to automate the installation of Docker CE, Docker Compose on an Ubuntu 24.04 (Noble Numbat) LXC container.
 
