@@ -1,15 +1,13 @@
 -------------------------------------------------------------
 🐳 Docker & Portainer Installer for Proxmox LXC (Ubuntu 24.04)
 -------------------------------------------------------------
-A lightweight bash script to automate the installation of Docker CE, Docker Compose, and Portainer Community Edition on an Ubuntu 24.04 (Noble Numbat) LXC container.
+A lightweight bash script to automate the installation of Docker CE, Docker Compose on an Ubuntu 24.04 (Noble Numbat) LXC container.
 
 🚀 Features:
 
 Official Repo: Installs Docker from the official Docker repository (not the older docker.io version).
 
 Docker Compose V2: Includes the latest CLI plugin support.
-
-Portainer GUI: Automatically deploys Portainer with a persistent data volume.
 
 IP Auto-Detection: Displays the exact URL to access your dashboard at the end of the script.
 
@@ -46,18 +44,15 @@ Make the script executable:
 
 Run as root:
 
-    ./install.sh
+    ./setup.sh
 
 🖥️ Usage
 
 Once the script completes, it will output your Portainer access link:
 
     Installation Complete!
-    Access Portainer at: https://Your-IP:9443
 
 Open your browser and go to the link provided.
-Accept the self-signed SSL certificate warning (normal for local Portainer installs).
-Create your admin password and start managing your containers!
 
 🔧 Troubleshooting (LXC Specific)
 Storage Driver Issues
